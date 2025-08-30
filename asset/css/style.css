@@ -1,0 +1,61 @@
+h1 {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+h2 {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+aside {
+  background-color: rgb(212, 212, 212);
+  border-top: 5px solid rgb(0, 0, 0);
+  border-bottom: 5px solid rgb(0, 0, 0);
+  padding: auto;
+  margin: auto;
+}
+p {
+  font-size: 22px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+a {
+  color: rgb(49, 190, 255);
+  /* text-decoration: none; */
+}
+/* ul,
+ol {
+  color: rgb(0, 68, 45);
+  list-style: none;
+/* } */
+.list {
+  list-style: none;
+  /* color: rgb(124, 216, 185); */
+}
+.inner-p {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+footer {
+  background-color: rgb(212, 212, 212);
+  border-top: 5px solid rgb(0, 0, 0);
+  border-bottom: 5px solid rgb(0, 0, 0);
+  padding: auto;
+  margin: auto;
+}
+a:visited {
+  color: rgb(98, 42, 250);
+}
+a:hover {
+  color: orange;
+  font-weight: rgb(3, 218, 207);
+  text-decoration: wavy;
+}
+header {
+  background-color: rgb(212, 212, 212);
+  border-top: 5px solid rgb(0, 0, 0);
+  border-bottom: 5px solid rgb(0, 0, 0);
+  padding: auto;
+  margin: auto;
+}

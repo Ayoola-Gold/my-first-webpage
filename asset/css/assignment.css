@@ -1,0 +1,127 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+h1 {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  color: rgb(255, 142, 142);
+}
+h2 {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: rgb(255, 142, 142);
+}
+h4 {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: rgb(255, 142, 142);
+}
+p {
+  font-size: 17px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.image-desc {
+  font-size: 10px;
+  padding-left: 30px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: rgb(49, 190, 255);
+  /* text-decoration: none; */
+}
+.inner-p {
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+}
+
+/* a:visited {
+  color: rgb(98, 42, 250);
+}
+a:hover {
+  color: orange;
+  font-weight: rgb(3, 218, 207);
+  text-decoration: wavy;
+} */
+header {
+  background-color: rgb(226, 226, 226);
+  border-top: 2px solid rgb(255, 142, 142);
+  /* border-bottom: 2px solid rgb(255, 142, 142); */
+  padding: auto;
+  margin: auto;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  text-align: right;
+  color: black;
+  color: rgb(255, 142, 142);
+}
+
+.container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-word {
+  float: left;
+}
+article {
+  float: left;
+  width: 600px;
+}
+aside {
+  border-top: 2px solid rgb(255, 142, 142);
+  border-bottom: 2px solid rgb(255, 142, 142);
+  padding: auto;
+  margin: auto;
+  /* float: right; */
+  width: 250px;
+  font-size: 15px;
+  box-sizing: border-box;
+  /* background-color: rgb(226, 226, 226); */
+}
+/* 
+footer {
+  padding: auto;
+  margin-top: 500px;
+  clear: both;
+}
+
+.footer-text {
+  font-size: 10px;
+  color: rgb(255, 142, 142);
+}
+article a {
+  text-decoration: line;
+  color: rgb(255, 142, 142);
+}
+aside a {
+  text-decoration: line;
+  color: rgb(255, 142, 142);
+}
+aside ul li {
+  list-style-type: none;
+}
+.img-intro {
+  float: left;
+} */
+nav ul li {
+  float: right;
+  padding: 5px;
+  margin: 10px;
+}
+/* flexbox */

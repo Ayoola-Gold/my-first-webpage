@@ -1,0 +1,131 @@
+.container {
+  width: 900px;
+  /* margin-right: auto;
+  margin-left: auto; */
+  /* margin: 0;
+  padding: 0; */
+}
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 10px;
+}
+nav ul li {
+  float: right;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* width: 130px; */
+  /* background-color: #303030; */
+  /* overflow: hidden; */
+}
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  padding: 8px 15px;
+  text-decoration: none;
+  /* background-color: #818181; */
+}
+/* to change the link and background color when hovering */
+li a:hover {
+  background-color: rgb(41, 41, 41);
+  color: #f1f1f1;
+}
+.active {
+  background-color: rgb(43, 189, 92);
+  color: white'
+}
+header h1 a {
+  margin: 10px;
+}
+.float-right{
+  float: right;
+}
+.header{
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  width: auto;
+  margin: 0px;
+  padding: 5px;
+  background-color:rgba(220, 220, 255, 0.733);
+}
+.mainheader{
+  /* text-align: center; */
+  /* font-style: normal; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: larger;
+  width: auto;
+  margin: 0px;
+  padding: 5px;
+  /* background-color:rgba(220, 220, 255, 0.733); */
+}
+.log-in{
+  margin: 0px;
+  padding: 10px;
+  border: none;
+  width: 250px;
+align-items: center;
+border: solid 1px;
+border-radius: 5px;
+background-color: #fbfbfb;
+}
+#img1{
+  clip-path: ellipse(50%);
+
+}
+footer{
+  background-color: rgb(236, 236, 255);
+}
+.otherbook{
+  background-color: white;
+  border:rgb(189, 189, 255) solid;
+}
+.notable-design{
+  background-color: white;
+  border:rgb(189, 189, 255) solid;
+}
+.header-paragraph{
+  text-align: center;
+}
+.footerinfo {
+  background-color: #fbfbfb;
+  padding: 10px;
+  margin: 1px;
+  border: solid rgba(0, 0, 0, 0.322) 1px;
+  border-radius: 5px;
+  box-shadow: 10px black;
+  text-align: center ;
+}
+.copyright-sec {
+    background-color: #fbfbfb;
+  padding: 10px;
+  margin: 1px;
+  border: solid rgba(0, 0, 0, 0.322) 1px;
+  border-radius: 5px;
+  box-shadow: 10px black;
+  text-align: center ;
+}
+h1 {
+  float: left;
+}
+.header-color{
+  background-color: #000000;
+}
+article{
+/* background-color: green; */
+width: 500px;
+float: left;
+}
+aside{
+/* background-color: blue; */
+width: 250px;
+float: right;
+margin-bottom: 20px;
+border: #000000;
+}
+footer{
+/* background-color: yellow; */
+clear: both;
+}

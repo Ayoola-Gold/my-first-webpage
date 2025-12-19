@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(241, 255, 255);
+}
+.border {
+  border: solid;
+  margin: 10px;
+  padding: 10px;
+}
+img {
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+.wrapper {
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5rem;
+}
+.intro {
+  flex: 1;
+}
+h1 {
+  text-shadow: 0.5px 0.5px;
+  color: rgb(0, 92, 92);
+}
+a {
+  color: rgb(0, 92, 92);
+  text-decoration: none;
+  background-color: rgb(235, 235, 255);
+}
+a:hover {
+  color: green;
+  text-decoration: underline;
+}

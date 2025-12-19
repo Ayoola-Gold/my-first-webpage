@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Who is Ayoola</title>
+    <link rel="stylesheet" href="asset/css/style4.css">
     <!-- favicon was added added -->
     <link
       rel="shortcut icon"
@@ -11,48 +12,45 @@
       type="image/x-icon"
     />
   </head>
+  <div class="container">
   <body>
     <!-- We will define the sections avccordingly -->
     <header>
+      <div class="header-color">
+      <h1  class="mainheader">Ayoola Olugbenga</h1>
+      <nav>
+        <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Navigation</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="#">Magazine</a></li>
+        <li><a href="#">Upcoming projects</a></li>
+        <li class="float-right"><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      </div>
+      <br> <br> <br>
       <!-- in the header section, we will put on the navigation elements -->
       <!-- Also in the header consist of a brief informattion about the web page -->
-      <h1>Ayoola's Biography webpage</h1>
-      <p><i>A brother, Author, Son and Husband</i></p>
+      <p class="header-paragraph"><i><strong>Olugbenga Ayoola;</strong> A Brother, Author, Son and Husband</i></p>
+       <br> 
       <!-- The navigation element shos the links of the webpage -->
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Navigation</a>
-        <a href="#">About Us</a>
-        <a href="#">Contact Us</a>
-      </nav>
-      <h4>Log in to Ayoola Web For More</h4>
-      <!-- form action for iput. here the input, label and submit elements were utilised to make a place for where username input and  submit tag will be inputed-->
-      <form action="#">
-        <label for="Username">Username</label><br />
-        <input type="text" id="Username" name="Username" /><br /><br />
-        <label for="Password">Password</label><br />
-        <input type="text" id="Password" name="Password" /><br /><br />
-        <input type="Submit" name="Submit" />
-      </form>
+      <br>
       <!-- image element was utilised to show the image of the subject -->
       <img
         src="asset/images/FB_IMG_1619908244679.jpg"
         alt="My Picture"
-        width="300px"
+        width="100px"
+        id="img1"
       />
-      <p>Image: <strong>Ayoola Gbenga</strong> Throwback picture.</p>
+      <p>Image: <strong><i>Ayoola Gbenga</i></strong></p>
     </header>
     <!-- the section element is used to portray the main feature of he website, here the h2 and h3 headings where used to differentiate headings and sub headings -->
+ <article>   
     <section>
       <!-- the main menu states the main information about the webpage-->
-      <h2>Main Menu</h2>
-      <h2>Favourite Quote</h2>
-      <p>
-        If you have anything to do, Do it well and The quick brown fox jumps
-        over the lazy dog. The lazy dog, having none of it, simply rolled over
-        and asked for belly rubs instead.
-      </p>
-      <h3>Who is Ayoola</h3>
+      <h3 class="header">Who is Ayoola</h3>
       <!-- here the list element was used. Both the order list and un-ordered list -->
       <ol>
         <li>He is a Child of God</li>
@@ -60,7 +58,7 @@
         <li>He Attend the Reedem Church</li>
         <li>Mr Victor is his Tutor</li>
       </ol>
-      <h3>The Schools he attended</h3>
+      <h3 class="header">The Schools he attended</h3>
       <!-- We will also be utilising the table elements -->
       <!-- In the table, we used the underline element -->
       <table>
@@ -90,14 +88,12 @@
         </tr>
       </table>
     </section>
-    <article>
+   
       <!-- The article element was used to showcase the article that the website wants to portray. That is the story writen -->
-      <h2>
-        <strong>Read this Story: <strong>Written by</strong> <i>Ayoola Olugbenga</i></strong>
-      </h2>
-      <!-- h3 ot write the name of the article that i want to share -->
-      <h3>Muted Destiny</h3>
-      <p>
+      <h4 class="header">
+        <strong>Read this Story: Muted Destiny: <strong>Written by</strong> <i>Ayoola Olugbenga</i></strong>
+      </h4>
+       <p>
         .......As I sat on my bed, looking up at the ceiling like I was in an
         examination hall clueless about what to write, actually here, in
         reality, I was clueless of what next, though my flesh was satisfied as
@@ -150,7 +146,7 @@
     </article>
     <!-- the aside element will be used as floating in the webpage -->
     <aside>
-      <h3>The Schools He Attended</h3>
+      <h3 class="header">The Schools He Attended</h3>
       <ul>
         <li>Bobas Nursery School</li>
         <li>Bobas Secondary School</li>
@@ -158,22 +154,11 @@
         <li>De Montfort University</li>
       </ul>
       <!-- continuity of the aside -->
-      <h3>
-        <strong><i>My Favourite New Website</i></strong>
-      </h3>
-      <!-- the iframe element is used to project another page in the webpage -->
-      <iframe
-        src="https://www.nairaland.com"
-        frameborder="300"
-        title="Nairaland"
       >
-        Nairaland</iframe
-      >
-    </aside>
     <!-- at the footer segment, i am using the h4, link and img elements to explain the links to the other bookks -->
-    <footer>
       <!-- the footer element is used to show the info and other non necesary stuffs about the webpage, this segment make use of image, video and links -->
-      <h4>Other books written by Ayoola</h4>
+      <div class="otherbook">
+      <h4 class="header">Other books written by Ayoola</h4>
       <img
         src="asset/images/Muted Destiny.jpg"
         alt="Muted Destiny"
@@ -195,26 +180,29 @@
       />
       <a href="#">Faith's Doses</a>
       <p>For More Books,<a href="#"> click here</a></p>
-      <h4>His notable Design works</h4>
+      </div>
+      <br>
+     <div class="notable-design">
+       <h3 class="header">His notable Design works</h3>
       <img
         src="asset/images/A4 Magazine Mockup - Free Version.jpg"
         alt="Mag"
         width="150px"
       />
-      <img src="asset/images/5.jpg" alt="sdsa" width="150" />
-      <img src="asset/images/banner.jpg" alt="saa" width="150" />
-      <img
+        <img src="asset/images/5.jpg" alt="sdsa" width="150" />
+        <img
         src="asset/images/214-book-mockup-vol2-1.jpg"
         alt="hsaja"
         width="150"
       />
       <p>For More Works,<a href="#"> click here</a></p>
+     </div>
       <!-- this shows how video can be added to the link.... -->
-      <h4>Favourite Video</h4>
+      <!-- <h4 class="header">Favourite Video</h4>
       <video
         width="320"
         height="240"
-        autoplay
+        autoplay="none"
         muted
         controls
         source
@@ -223,36 +211,53 @@
       >
         Browser doesn't support Video files
       </video>
-      <p>For More Videos,<a href="#"> click here</a></p>
+      <p>For More Videos,<a href="#"> click here</a></p> -->
       <strong>
-        <!-- the form elements are used for interaction in html, this orm actions make use of the input,,,,label, textarea, legend, optgroup, output, fieldlist -->
-        <form action="#">
-          <label for="Likes"><i>What do you like about Ayoola</i></label>
-          <select name="Likes" id="Likes">
-            <option value="His name">His Name</option>
-            <option value="His Smile">His Smile</option>
-            <option value="His Walk Style">His Walk Style</option>
-            <option value="His Wife">His Wife</option>
-            <option value="His Family">His Family</option>
-          </select>
-          <input type="Submit" name="Submit here" />
-        </form>
-        <br /><br />
+        
+        <br>
+      <!-- <h3 class="header">
+        <strong><i>My Favourite New Website</i></strong>
+      </h3>
+      the iframe element is used to project another page in the webpage
+      <iframe
+        src="https://www.nairaland.com"
+        frameborder="800"
+        title="Nairaland"
+      >
+        Nairaland</iframe>
+        <br /><br /> -->
+        <div class="Writing">
         <p>
-          <strong><i>Write what you like About Ayoola</i></strong>
+          <strong><i>What do you want Ayoola to tell you??</i></strong>
         </p>
         <form action="#">
           <textarea
             name="Write"
             id=" Write what you like About Ayoola"
-            rows="10"
-            cols="50"
+            rows="4"
+            cols="100"
           >
-            write what You Like About Ayoola Here</textarea
+  </textarea
           ><br />
           <input type="Submit" name="Submit here" />
         </form>
-        <br />
+        </div>
+        <br><br>
+           <div class="log-in">
+      <h4>Log in to Ayoola's Web </h4>
+      <!-- form action for iput. here the input, label and submit elements were utilised to make a place for where username input and  submit tag will be inputed-->
+      <form action="#">
+        <label for="Username">Username</label><br />
+        <input type="text" id="Username" name="Username" /><br /><br />
+        <label for="Password">Password</label><br />
+        <input type="text" id="Password" name="Password" /><br /><br />
+        <input type="Submit" name="Submit" />
+      </form>
+      </div>
+    </aside>
+      <footer>
+      </p>
+      <div class="footerinfo">
         <form action="#">
           <strong
             ><i
@@ -269,19 +274,34 @@
         </form>
       </strong>
       <!-- used the form, label and input element to writefor subscription space and also the copyright spaces in the footer -->
-      <a href="#">Home</a><br />
-      <a href="#">Navigation</a><br />
-      <a href="#">About</a><br />
-      <a href="#">Contact</a><br />
-      <a href="#">Go up</a>
       <p>
         <form action="#">
           <label for="email"><strong><i>To get more updates, subscribe to my mailbox here</i></strong></label>
-          <input type="email" name="Your Email" id="Email" value="@email.com">
+          <input type="email" name="Your Email" id="Email" value="@gmail.com">
           <input type="submit">
+        </form><br>
+        <!-- the form elements are used for interaction in html, this orm actions make use of the input,,,,label, textarea, legend, optgroup, output, fieldlist -->
+        <form action="#">
+          <label for="Likes"><i>What do you like about Ayoola</i></label>
+          <select name="Likes" id="Likes">
+            <option value="His name">His Name</option>
+            <option value="His Smile">His Smile</option>
+            <option value="His Walk Style">His Walk Style</option>
+            <option value="His Wife">His Wife</option>
+            <option value="His Family">His Family</option>
+          </select>
+          <input type="Submit" name="Submit here" />
         </form>
+       <p>
+       <strong> If you have anything to do, Do it well</strong>
       </p>
-      <p>Copyright: 2025 Ayoola Olugbenga</p>
+      </div>
+      <br>
+      <div class="copyright-sec">
+<p> <strong>AyoPage:</strong> Copyright: 2025 Ayoola Olugbenga. All rights reserved. See <a href="http://" target="_blank" rel="noopener noreferrer">How to Advertise</a></p> <strong>Disclamer:</strong> Every AyoPage member is <strong>solely responsible</strong> for <strong>anything</strong> that he/she <strong>posts</strong>or <strong>uploads</strong> on AyoPage
+      </div>
+    
     </footer>
   </body>
+    </div>
 </html>
